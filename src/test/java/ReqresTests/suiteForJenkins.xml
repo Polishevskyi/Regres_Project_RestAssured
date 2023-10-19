@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suiteForJenkins" verbose="10" parallel="methods" thread-count="4">
+
+    <test name="get">
+        <classes>
+            <class name="ReqresTests.GetListUsersTest"/>
+            <class name="ReqresTests.GetListResourceTest"/>
+        </classes>
+    </test>
+
+    <test name="post">
+        <classes>
+            <class name="ReqresTests.PostRegisterSuccessfulTest"/>
+            <class name="ReqresTests.PostRegisterUnsuccessfulTest"/>
+            <class name="ReqresTests.PostCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="delete">
+        <classes>
+            <class name="ReqresTests.DeleteUserDeleteTest"/>
+        </classes>
+    </test>
+
+</suite>

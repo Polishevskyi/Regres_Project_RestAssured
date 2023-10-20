@@ -1,4 +1,4 @@
-package ReqresPojos;
+package reqresPojos;
 
 public class UserForCreate {
 

@@ -1,15 +1,15 @@
-package ReqresTests;
+package reqresTests;
 
-import ReqresPojos.ErrorPojo;
-import ReqresPojos.UserForReg;
+import reqresPojos.ErrorPojo;
+import reqresPojos.UserForReg;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static Base.BaseApiSpecifications.configureSpec;
-import static Base.BaseApiSpecifications.requestSpecification;
-import static Base.BaseApiSpecifications.responseSpecification;
+import static base.BaseApiSpecifications.configureSpec;
+import static base.BaseApiSpecifications.requestSpecification;
+import static base.BaseApiSpecifications.responseSpecification;
 import static io.restassured.RestAssured.given;
 
 public class PostRegisterUnsuccessfulTest {

@@ -4,22 +4,22 @@
 
     <test name="get">
         <classes>
-            <class name="ReqresTests.GetListUsersTest"/>
-            <class name="ReqresTests.GetListResourceTest"/>
+            <class name="reqresTests.GetListUsersTest"/>
+            <class name="reqresTests.GetListResourceTest"/>
         </classes>
     </test>
 
     <test name="post">
         <classes>
-            <class name="ReqresTests.PostRegisterSuccessfulTest"/>
-            <class name="ReqresTests.PostRegisterUnsuccessfulTest"/>
-            <class name="ReqresTests.PostCreateTest"/>
+            <class name="reqresTests.PostRegisterSuccessfulTest"/>
+            <class name="reqresTests.PostRegisterUnsuccessfulTest"/>
+            <class name="reqresTests.PostCreateTest"/>
         </classes>
     </test>
 
     <test name="delete">
         <classes>
-            <class name="ReqresTests.DeleteUserDeleteTest"/>
+            <class name="reqresTests.DeleteUserDeleteTest"/>
         </classes>
     </test>
 
